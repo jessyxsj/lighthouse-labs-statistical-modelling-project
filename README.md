@@ -6,8 +6,6 @@ In this project, I examine the locations and capacities of the Mobi bikeshare sy
 
 ## Process
 
-
-
 I begin with pulling data about each bike station from the City Bike API. Specifically, I take the station location, name and total number of bike slots.
 
 Querying by general category IDs led to redundancy in the dataset due to venues being multi-tagged across various classifications, resulting in duplicate records. To streamline the analysis, I extracted all POIs initially and performed post-processing to classify them into broader categories, focusing specifically on restaurants and bars, landmarks, banks, and retail establishments.
@@ -15,7 +13,7 @@ Querying by general category IDs led to redundancy in the dataset due to venues 
 For each bike station, I analyzed the number of venues around, and also the distance of the venue from the station. I then generated some graphs to visualize this data. Finally, I generated regression models using average distance of venues from each station and number of venues as predictors, to see if these data have relationship with bike station capacities.
 
 ## Results
-![Distribution of Venue Distances](images/distribution_of%20_venue_distances.png)
+![Distribution of Venue Distances](images/distribution_of_venue_distances.png)
 
 
 

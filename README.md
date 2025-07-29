@@ -13,6 +13,9 @@ Querying by general category IDs led to redundancy in the dataset due to venues 
 For each bike station, I analyzed the number of venues around, and also the distance of the venue from the station. I then generated some graphs to visualize this data. Finally, I generated regression models using average distance of venues from each station and number of venues as predictors, to see if these data have relationship with bike station capacities.
 
 ## Results
+
+The following images are showing some results from my EDA and the final modelling:
+
 ![Distribution of Venue Distances](images/distribution_of_venue_distances.png)
 The histogram shows a relatively uniform distribution of venues across the 0-300 meter range from bike stations, with the highest concentration occurring at approximately 150-160 meters (340+ venues). 
 

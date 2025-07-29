@@ -14,8 +14,10 @@ For each bike station, I analyzed the number of venues around, and also the dist
 
 ## Results
 ![Distribution of Venue Distances](images/distribution_of_venue_distances.png)
+The histogram shows a relatively uniform distribution of venues across the 0-300 meter range from bike stations, with the highest concentration occurring at approximately 150-160 meters (340+ venues). 
 
-
+![Top 10 Venue Categories](images/top_10_venue_categories.png)
+Coffee shops overwhelmingly dominate with 426 venues, and most of the top 10 categories are restaurants, cafes and bakeries. This indicates that Vancouver's bike-share system is closely intertwined with its rich food culture, with coffee shops and Asian restaurants dominating the landscape of nearby venues.
 
 
 ## Challenges

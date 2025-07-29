@@ -15,7 +15,7 @@ Querying by general category IDs led to redundancy in the dataset due to venues 
 For each bike station, I analyzed the number of venues around, and also the distance of the venue from the station. I then generated some graphs to visualize this data. Finally, I generated regression models using average distance of venues from each station and number of venues as predictors, to see if these data have relationship with bike station capacities.
 
 ## Results
-
+![Distribution of Venue Distances](images/distribution_of%20_venue_distances.png)
 
 
 

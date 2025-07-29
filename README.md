@@ -19,6 +19,14 @@ The histogram shows a relatively uniform distribution of venues across the 0-300
 ![Top 10 Venue Categories](images/top_10_venue_categories.png)
 Coffee shops overwhelmingly dominate with 426 venues, and most of the top 10 categories are restaurants, cafes and bakeries. This indicates that Vancouver's bike-share system is closely intertwined with its rich food culture, with coffee shops and Asian restaurants dominating the landscape of nearby venues.
 
+![Multiple Regression Summary](images/multiple_regression_summary.png)
+The initial multiple regression model shows that venue categories have varying relationships with station capacity, but many predictors are not statistically significant (p > 0.05). The model's overall explanatory power remains modest, suggesting that venue density alone doesn't fully explain station sizing decisions in Vancouver's bike-share system.
+
+
+![Backward Elimination Summary](images/backward-elimination_summary.png)
+The backward elimination process removed all venue category variables, leaving only `total_venues` as the single significant predictor (p = 0.007). The final model shows that for each additional venue near a station, the number of bike slots increases by approximately 0.06 slots. However, the model explains only 2.8% of the variance in station capacity (R-squared = 0.028), indicating that total venue count has a statistically significant but practically weak relationship with station sizing. 
+The low explanatory power suggests that Vancouver's bike station capacity decisions are primarily driven by factors other than local venue density, such as ridership patterns, network connectivity, or strategic placement considerations.
+
 
 ## Challenges
 

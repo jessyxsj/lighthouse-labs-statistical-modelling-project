@@ -18,7 +18,7 @@ For each bike station, I analyzed the number of venues around, and also the dist
 
 
 
-(fill in what you found about the comparative quality of API coverage in your chosen area and the results of your model.)
+
 
 ## Challenges
 
